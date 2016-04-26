@@ -73,6 +73,7 @@
 
                 <data android:scheme="bitcoin" />
                 <data android:scheme="litecoin" />
+				<data android:scheme="gamecredits" />
                 <data android:scheme="dogecoin" />
                 <data android:scheme="reddcoin" />
                 <data android:scheme="peercoin" />
