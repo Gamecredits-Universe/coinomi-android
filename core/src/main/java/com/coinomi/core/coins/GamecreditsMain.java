@@ -18,7 +18,7 @@ public class GamecreditsMain extends BitFamily {
         name = "Gamecredits";
         symbol = "Game";
         uriScheme = "gamecredits";
-        bip44Index = 1000;
+        bip44Index = 101;
         unitExponent = 8;
         feeValue = value(100000);
         minNonDust = value(1000); // 0.00001 GAME mininput

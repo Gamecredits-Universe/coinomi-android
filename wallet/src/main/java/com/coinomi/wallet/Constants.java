@@ -139,8 +139,11 @@ public class Constants {
                                                     new ServerAddress("doge-testnet-cce-2.coinomi.net", 15003)),
             new CoinAddress(LitecoinMain.get(),     new ServerAddress("ltc-cce-1.coinomi.net", 5002),
                                                     new ServerAddress("ltc-cce-2.coinomi.net", 5002)),
-			new CoinAddress(GamecreditsMain.get(),  new ServerAddress("gmc.cryptocloudhosting.org", 5002),
+	        new CoinAddress(GamecreditsMain.get(),  new ServerAddress("gmc.cryptocloudhosting.org", 5002),
+                                                    new ServerAddress("5.196.70.166", 5002)),
                                                     new ServerAddress("gamecredits.net", 5002)),
+                                                    new ServerAddress("game-cce-1.coinomi.net", 5002)),
+                                                    new ServerAddress("game-cce-2.coinomi.net", 5002)),
             new CoinAddress(LitecoinTest.get(),     new ServerAddress("ltc-testnet-cce-1.coinomi.net", 15002),
                                                     new ServerAddress("ltc-testnet-cce-2.coinomi.net", 15002)),
             new CoinAddress(PeercoinMain.get(),     new ServerAddress("ppc-cce-1.coinomi.net", 5004),
@@ -228,7 +231,7 @@ public class Constants {
         COINS_ICONS.put(CoinID.DOGECOIN_TEST.getCoinType(), R.drawable.dogecoin_test);
         COINS_ICONS.put(CoinID.LITECOIN_MAIN.getCoinType(), R.drawable.litecoin);
         COINS_ICONS.put(CoinID.LITECOIN_TEST.getCoinType(), R.drawable.litecoin_test);
-		COINS_ICONS.put(CoinID.GAMECREDITS_MAIN.getCoinType(), R.drawable.gamecredits);
+	    COINS_ICONS.put(CoinID.GAMECREDITS_MAIN.getCoinType(), R.drawable.gamecredits);
         COINS_ICONS.put(CoinID.PEERCOIN_MAIN.getCoinType(), R.drawable.peercoin);
         COINS_ICONS.put(CoinID.DASH_MAIN.getCoinType(), R.drawable.dash);
         COINS_ICONS.put(CoinID.REDDCOIN_MAIN.getCoinType(), R.drawable.reddcoin);
@@ -272,7 +275,7 @@ public class Constants {
         COINS_BLOCK_EXPLORERS.put(CoinID.DOGECOIN_MAIN.getCoinType(), "https://chain.so/tx/DOGE/%s");
         COINS_BLOCK_EXPLORERS.put(CoinID.DOGECOIN_TEST.getCoinType(), "https://chain.so/tx/DOGETEST/%s");
         COINS_BLOCK_EXPLORERS.put(CoinID.LITECOIN_MAIN.getCoinType(), "http://ltc.blockr.io/tx/info/%s");
-		COINS_BLOCK_EXPLORERS.put(CoinID.GAMECREDITS_MAIN.getCoinType(), "http://gmc.cryptocloudhosting.org:3001/tx/%s");
+	    COINS_BLOCK_EXPLORERS.put(CoinID.GAMECREDITS_MAIN.getCoinType(), "http://gmc.cryptocloudhosting.org:3001/tx/%s");
         COINS_BLOCK_EXPLORERS.put(CoinID.LITECOIN_TEST.getCoinType(), "https://chain.so/tx/LTCTEST/%s");
         COINS_BLOCK_EXPLORERS.put(CoinID.PEERCOIN_MAIN.getCoinType(), "http://ppc.blockr.io/tx/info/%s");
         COINS_BLOCK_EXPLORERS.put(CoinID.DASH_MAIN.getCoinType(), "http://explorer.dashpay.io/tx/%s");
@@ -338,7 +341,7 @@ public class Constants {
             GuldenMain.get(),
             JumbucksMain.get(),
             LitecoinMain.get(),
-			GamecreditsMain.get(),
+	        GamecreditsMain.get(),
             MonacoinMain.get(),
             NamecoinMain.get(),
             NeoscoinMain.get(),
