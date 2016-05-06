@@ -141,7 +141,7 @@ public class Constants {
                                                     new ServerAddress("ltc-cce-2.coinomi.net", 5002)),
             new CoinAddress(GamecreditsMain.get(),  new ServerAddress("gmc.cryptocloudhosting.org", 50001),
                                                     new ServerAddress("5.196.70.166", 50001)),
-                                                    new ServerAddress("gamecredits.net", 5002)),
+                                                    new ServerAddress("gamecredits.net", 50001)),
                                                     new ServerAddress("game-cce-1.coinomi.net", 5066)),
                                                     new ServerAddress("game-cce-2.coinomi.net", 5067)),
             new CoinAddress(LitecoinTest.get(),     new ServerAddress("ltc-testnet-cce-1.coinomi.net", 15002),
