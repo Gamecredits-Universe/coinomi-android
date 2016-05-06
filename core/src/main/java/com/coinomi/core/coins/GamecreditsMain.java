@@ -3,7 +3,7 @@ package com.coinomi.core.coins;
 import com.coinomi.core.coins.families.BitFamily;
 
 /**
- * @author John L. Jegutanis
+ * @author Erwin
  */
 public class GamecreditsMain extends BitFamily {
     private GamecreditsMain() {
@@ -13,7 +13,9 @@ public class GamecreditsMain extends BitFamily {
         p2shHeader = 5;
         acceptableAddressCodes = new int[] { addressHeader, p2shHeader };
         spendableCoinbaseDepth = 100;
-        dumpedPrivateKeyHeader = 176;
+        dumpedPrivateKeyHeader = 166; // 128 + addressHeader 
+		
+		//dumpedPrivateKeyHeader = 128 + addressHeader 
 
         name = "Gamecredits";
         symbol = "Game";
