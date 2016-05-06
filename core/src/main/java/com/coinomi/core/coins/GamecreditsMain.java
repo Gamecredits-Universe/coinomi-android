@@ -4,6 +4,10 @@ import com.coinomi.core.coins.families.BitFamily;
 
 /**
  * @author Erwin
+ * Gamecredits Electrum blockchain
+ * https://github.com/Gamecredits-Universe/electrum-game-blockchain/releases/download/v1.0/electrum-gmc.tar.gz
+ * 
+ * https://onlinegames.credit
  */
 public class GamecreditsMain extends BitFamily {
     private GamecreditsMain() {
